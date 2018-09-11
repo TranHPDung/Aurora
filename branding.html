@@ -6,7 +6,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dulcieland – Branding – Front-end Developer &amp; User Experience Designer</title>
+  <title>Dulcieland – Branding</title>
   <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
@@ -24,9 +24,8 @@
   <meta name="msapplication-TileColor" content="#000000">
   <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
   <meta name="theme-color" content="#000000">
-  <link rel="stylesheet" href="assets/css/app.css">
-  <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
-
+  <link rel="stylesheet" href="assets/css/app.css?v=1">
+  
   
 </head>
 
@@ -35,7 +34,7 @@
     <div class="off-canvas position-right callout" id="offCanvas" data-off-canvas>
       <div class="logo-brand">
         <a href="index.html">
-          <img src="assets/img/lg.svg" width="30" height="30" alt="Dulcieland" class="align-self-middle">
+          <img src="assets/img/lg.svg?v=1" width="30" height="30" alt="Dulcieland" class="align-self-middle">
           <span class="owner-name title-bar-title">DULCIE <strong>TRAN</strong></span>
           <h1 class="show-for-sr">Dulcieland – based in Saigon</h1>
         </a>
@@ -62,7 +61,7 @@
           </div>
           <nav class="platform-menu-wrapper title-bar-right columns small-2 medium-8 large-9" role="navigation">
             <div class="show-for-small-only">
-              <button type="button" data-toggle="offCanvas" class="button-icon"><i data-feather="menu"></i></button>
+              <button type="button" data-toggle="offCanvas" class="button-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><use xlink:href="assets/img/feather-sprite.svg#menu"/></svg></button>
             </div>
       
             <ul class="platform-menu menu hide-for-small-only float-right" role="menu">
@@ -125,19 +124,19 @@
                       <h4 class="separator-left">Colours</h4>
                       <div class="callout">
                         <div class="row medium-unstack">
-                          <div class="columns text-center">
+                          <div class="columns small-6 text-center">
                             <div class="badge-primary">#B5485F</div>
                             <div class="badge-name">primary</div>
                           </div>
-                          <div class="columns text-center">
+                          <div class="columns small-6 text-center">
                             <div class="badge-success">#42A270</div>
                             <div class="badge-name">success</div>
                           </div>
-                          <div class="columns text-center">
+                          <div class="columns small-6 text-center">
                             <div class="badge-alert">#FC6747</div>
                             <div class="badge-name">alert</div>
                           </div>
-                          <div class="columns text-center">
+                          <div class="columns small-6 text-center">
                             <div class="badge-warning">#E08541</div>
                             <div class="badge-name">warning</div>
                           </div>
@@ -333,7 +332,8 @@
                               <div class="password-wrapper">
                                 <label for="password1" class="show-for-sr">Password</label>
                                 <input type="password" value="" placeholder="Password" id="password1" class="password">
-                                <button class="unmask" type="button" title="Mask/Unmask password to check content"><i data-feather="eye"></i></button>
+                                <button class="unmask" type="button" title="Mask/Unmask password to check content"><svg class="feather">
+                                    <use xlink:href="assets/img/feather-sprite.svg#eye" /> </svg></button>
                               </div>
                               <div class="grid-x grid-margin-x">
                                 <div class="small-6 cell"><label>Remember me?</label></div>
@@ -363,7 +363,8 @@
                               <div class="password-wrapper">
                                 <label for="password2" class="show-for-sr">Password<abbr title="(required)">*</abbr></label>
                                 <input type="password" value="" placeholder="Password" id="password2" class="password">
-                                <button class="unmask" type="button" title="Mask/Unmask password to check content"><i data-feather="eye"></i></button>
+                                <button class="unmask" type="button" title="Mask/Unmask password to check content"><svg class="feather">
+                                    <use xlink:href="assets/img/feather-sprite.svg#eye" /> </svg></button>
                               </div>
                               <label for="birthday" class="show-for-sr">Birthday</label>
                               <input type="text" value="" placeholder="Birthday" id="birthday">
@@ -389,137 +390,182 @@
                         <h4 class="separator-left">Icons</h4>
                         <div class="row small-up-2 medium-up-2 large-up-4">
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="award"></i><span class="name-icon">award</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#award" /></svg><span class="name-icon">award</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="check-circle"></i><span class="name-icon">check-circle</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#check-circle" /></svg><span class="name-icon">check-circle</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="check-square"></i><span class="name-icon">check-square</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#check-square" /></svg><span class="name-icon">check-square</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="check"></i><span class="name-icon">check</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#check" /></svg><span class="name-icon">check</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="download-cloud"></i><span class="name-icon">download-cloud</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#download-cloud" /></svg><span class="name-icon">download-cloud</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="download"></i><span class="name-icon">download</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#download" /></svg><span class="name-icon">download</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="upload-cloud"></i><span class="name-icon">upload-cloud</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#upload-cloud" /></svg><span class="name-icon">upload-cloud</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="upload"></i><span class="name-icon">upload</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#upload" /></svg><span class="name-icon">upload</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="copy"></i><span class="name-icon">copy</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#copy" /></svg><span class="name-icon">copy</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="eye"></i><span class="name-icon">eye</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#eye" /></svg><span class="name-icon">eye</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="eye-off"></i><span class="name-icon">eye-off</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#eye-off" /></svg><span class="name-icon">eye-off</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="bluetooth"></i><span class="name-icon">bluetooth</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#bluetooth" /></svg><span class="name-icon">bluetooth</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="external-link"></i><span class="name-icon">external-link</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#external-link" /></svg><span class="name-icon">external-link</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="film"></i><span class="name-icon">film</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#film" /></svg><span class="name-icon">film</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="video"></i><span class="name-icon">video</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#video" /></svg><span class="name-icon">video</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="image"></i><span class="name-icon">image</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#image" /></svg><span class="name-icon">image</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="grid"></i><span class="name-icon">grid</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#grid" /></svg><span class="name-icon">grid</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="list"></i><span class="name-icon">list</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#list" /></svg><span class="name-icon">list</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="heart"></i><span class="name-icon">heart</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#heart" /></svg><span class="name-icon">heart</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="link"></i><span class="name-icon">link</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#link" /></svg><span class="name-icon">link</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="map-pin"></i><span class="name-icon">map-pin</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#map-pin" /></svg><span class="name-icon">map-pin</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="mail"></i><span class="name-icon">mail</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#mail" /></svg><span class="name-icon">mail</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="maximize"></i><span class="name-icon">maximize</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#maximize" /></svg><span class="name-icon">maximize</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="minimize"></i><span class="name-icon">minimize</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#minimize" /></svg><span class="name-icon">minimize</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="more-horizontal"></i><span class="name-icon">more-horizontal</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#more-horizontal" /></svg><span class="name-icon">more-horizontal</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="more-vertical"></i><span class="name-icon">more-vertical</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#more-vertical" /></svg><span class="name-icon">more-vertical</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="play"></i><span class="name-icon">play</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#play" /></svg><span class="name-icon">play</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="pause"></i><span class="name-icon">pause</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#pause" /></svg><span class="name-icon">pause</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="music"></i><span class="name-icon">music</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#music" /></svg><span class="name-icon">music</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="shuffle"></i><span class="name-icon">shuffle</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#shuffle" /></svg><span class="name-icon">shuffle</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="repeat"></i><span class="name-icon">repeat</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#repeat" /></svg><span class="name-icon">repeat</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="share"></i><span class="name-icon">share</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#share" /></svg><span class="name-icon">share</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="sliders"></i><span class="name-icon">sliders</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#settings" /></svg><span class="name-icon">settings</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="thumbs-down"></i><span class="name-icon">thumbs-down</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#sliders" /></svg><span class="name-icon">sliders</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="thumbs-up"></i><span class="name-icon">thumbs-up</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#thumbs-down" /></svg><span class="name-icon">thumbs-down</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="user"></i><span class="name-icon">user</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#thumbs-up" /></svg><span class="name-icon">thumbs-up</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="users"></i><span class="name-icon">users</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#user" /></svg><span class="name-icon">user</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="volume"></i><span class="name-icon">volume</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#users" /></svg><span class="name-icon">users</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="volume-x"></i><span class="name-icon">volume-x</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#volume" /></svg><span class="name-icon">volume</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="volume-1"></i><span class="name-icon">volume-1</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#volume-x" /></svg><span class="name-icon">volume-x</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="volume-2"></i><span class="name-icon">volume-2</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#volume-1" /></svg><span class="name-icon">volume-1</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="trending-down"></i><span class="name-icon">trending-down</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#volume-2" /></svg><span class="name-icon">volume-2</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="trending-up"></i><span class="name-icon">trending-up</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#trending-down" /></svg><span class="name-icon">trending-down</span>
                           </div>
                           <div class="column callout align-middle grid-x grid-margin-x">
-                            <i class="small-4 cell" data-feather="settings"></i><span class="name-icon">settings</span>
+                            <svg class="small-4 cell feather">
+                              <use xlink:href="assets/img/feather-sprite.svg#trending-up" /></svg><span class="name-icon">trending-up</span>
                           </div>
+          
                         </div>
                       </div>
                     </div>
@@ -535,12 +581,15 @@
       <footer>
         <div class="row">
           <div class="small-12 columns text-center">
-            <small>&copy; 2018 Dulcie Tran <i data-feather="heart"></i> All rights reserved.</small>
+            <small>&copy; 2018 Dulcie Tran <svg class="feather feather-heart">
+        <use xlink:href="assets/img/feather-sprite.svg#heart"/>
+      </svg> Made in Saigon.</small>
           </div>
+          <div class="show-for-sr">𝓷𝓸𝓫𝓸𝓭𝔂'𝓼 𝓹𝓮𝓻𝓯𝓮𝓬𝓽</div>
         </div>
       </footer>
     </div>
-    <script src="assets/js/app.js"></script>
+    <script src="assets/js/app.js?v=1"></script>
     <script type="text/javascript">
       (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
